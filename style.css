@@ -1,0 +1,29 @@
+body{
+background-color: deeppink;
+
+}
+p{
+    border-style: groove;
+    color: rgb(201, 45, 45);
+    border-color: rgb(46, 187, 142);
+}
+h1 {
+    padding-left: 80px;
+}
+a{
+    color: blue;
+}
+img{
+    border-style: double;
+    color: blanchedalmond;
+}
+div.full{
+    min-height: 100px;
+    background-color: brown;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+div.left{
+    background-color: aqua;
+    min-height: 50px;
+}
