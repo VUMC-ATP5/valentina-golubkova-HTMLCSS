@@ -1,29 +1,41 @@
 body{
-background-color: deeppink;
+background-color:rgb(190, 184, 184);
+}
+
+p1 {
+
+color: rgb(43, 40, 40);
 
 }
-p{
-    border-style: groove;
-    color: rgb(201, 45, 45);
-    border-color: rgb(46, 187, 142);
-}
+
 h1 {
-    padding-left: 80px;
+    padding-left: 20px;
+    background-color:rgba(234, 207, 137, 0.851);
+
 }
 a{
-    color: blue;
+    color: rgb(22, 16, 199);
+    background-color: rgb(241, 235, 235);
 }
+
 img{
-    border-style: double;
-    color: blanchedalmond;
+    float:right;    
 }
-div.full{
-    min-height: 100px;
-    background-color: brown;
-    display: grid;
-    grid-template-columns: 2fr 4fr;
+
+div.full {
+    background-color: rgb(247, 247, 242);
+    max-height: 50%;
 }
-div.left{
-    background-color: aqua;
-    min-height: 50px;
+.textcols {
+	white-space: nowrap;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+	background: #e8c597;
+}
+.textcols .textcols-item:first-child {
+	margin-right: 4%;
 }
